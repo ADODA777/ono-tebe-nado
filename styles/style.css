@@ -1,1 +1,290 @@
-/* место для вашего кода */
+body {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+        width: 130px;
+        margin: 0;
+        padding: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+    list-style: circle;
+}
+
+.links li a {
+    color: black;
+}
+
+.contacts p {
+    font-size: 15;
+    font-family: inherit;
+    padding: 0 24px;
+    max-width: 20ch;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.underline {
+   text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.firts-page {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 50vh; 
+    background: url('/images/hero.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 1em;
+    padding-top: 1em;
+    overflow: hidden
+}
+
+.big-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 0 100px;
+    
+}
+
+.big-text-container h1 {
+    margin: -10px; 
+    font-size: 100px;
+    color: whitesmoke;
+   
+}
+
+.big-text-one {
+    align-self: self-start;
+}
+
+.big-text-two {
+    align-self: center;
+}
+
+.big-text-three {
+    align-self: end;
+}
+
+.text-and-button {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 100px; 
+    margin-top: 3em;;
+    align-items: center;
+}
+.small-text {
+    margin: 0; 
+    color: whitesmoke;
+    word-spacing: 2em;
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-family: inherit;
+    
+}
+
+.lots-section {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 4.5em;
+}
+
+.lots-section h2,
+.lot a, 
+button, 
+h1,
+h2,
+.small-text{
+    text-transform: uppercase;
+}
+
+.lots-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    
+}
+
+ h2 {
+    margin-bottom: 0;
+ }
+
+.lot {
+   /* flex: 1; */
+    width: 17em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden; 
+    margin-bottom: 1em; 
+}
+
+
+.lot::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.first-lot {
+    background-image: url(/images/lot1.png);
+   
+}
+
+.second-lot {
+    background-image: url(/images/lot2.jpg);
+}
+
+.third-lot {
+    background-image: url(/images/lot3.png);
+}
+
+.lot p,
+.lot a {
+    color: whitesmoke;
+    padding: 30px;
+    display: block;
+    text-shadow: 0.5px 0.5px black;
+    position: relative;
+    z-index: 2;
+}
+
+.lot p {
+    font-size: 20px;
+    
+}
+
+.lot a {
+    font-weight: 700;
+}
+
+button {
+    font-weight: 500;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+}
+
+.see-more {
+    color: black;
+}
+
+
+.round-logo {
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; 
+    margin-left: 3em;
+}
+
+.round-logo img {
+    max-width: 80%; 
+    max-height: 80%; 
+}
+
+.title-text { 
+   width: 72%;
+   float: right;
+   margin-top: 0;
+   padding-top: 0;
+   margin-right: 4em;
+   margin-bottom: 8em;
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+
+.logo-h2 {
+    display: flex;
+    direction: row;
+    align-items: center;
+    gap: 6em;
+    margin-bottom: -4em;
+    margin-top: 6em;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    direction: row;;
+    width: 90%;
+    margin: 4em 2em 2em 4em; 
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    direction: row;
+    gap: 2em;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    color: black;
+}
