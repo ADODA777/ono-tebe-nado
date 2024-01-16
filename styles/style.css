@@ -61,7 +61,7 @@ header {
 
 main {
   height: 50vh;
-  background: url("/images/hero.png") center/cover no-repeat;
+  background: url("/ono-tebe-nado/images/hero.png") center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -168,15 +168,15 @@ h2 {
 }
 
 .first-lot {
-  background-image: url(/images/lot1.png);
+  background-image: url(/ono-tebe-nado/images/lot1.png);
 }
 
 .second-lot {
-  background-image: url(/images/lot2.jpg);
+  background-image: url(/ono-tebe-nado/images/lot2.jpg);
 }
 
 .third-lot {
-  background-image: url(/images/lot3.png);
+  background-image: url(/ono-tebe-nado/images/lot3.png);
 }
 
 .lot p,
