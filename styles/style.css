@@ -59,11 +59,6 @@ header {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 main {
   height: 50vh;
   background: url("/images/hero.png") center/cover no-repeat;
@@ -119,6 +114,9 @@ button {
   border: 1px solid whitesmoke;
   color: whitesmoke;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 22px;
+  text-shadow: 1px 1px black;
 }
 
 .lots-section {
@@ -197,12 +195,6 @@ h2 {
 
 .lot a {
   font-weight: 700;
-}
-
-button {
-  font-weight: 500;
-  font-size: 22px;
-  text-shadow: 1px 1px black;
 }
 
 .see-more {
