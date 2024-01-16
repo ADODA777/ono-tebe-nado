@@ -1,3 +1,13 @@
+html, body {
+  min-height: 3028px; /* Установка минимальной высоты */
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -68,6 +78,7 @@ main {
   padding-bottom: 1em;
   padding-top: 1em;
   overflow: hidden;
+  
 }
 
 .big-text-container {
