@@ -1,19 +1,11 @@
-html, body {
-  min-height: 3028px; /* Минимальная высота всей страницы */
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   width: 100%;
   box-sizing: border-box;
   margin: 0;
-  padding-top: 310px; /* Верхний отступ для всей страницы */
+  padding: 0;
 }
-
-
 
 header {
   display: flex;
