@@ -1,17 +1,7 @@
-html, body {
-  min-height: 3028px; /* Установка минимальной высоты */
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 body {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-  width: 100%;
+  width: 1100px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,13 +11,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0;
-  width: 90%;
+  padding: 92px 24px;
+  width: 1052px;
   margin: auto;
 }
-
 .logo {
-  width: 130px;
+  width: 148px;
+  height: 105px;
   margin: 0;
   padding: 0;
 }
@@ -58,10 +48,17 @@ header {
 }
 
 .menu {
+  padding-left: 24px;
   display: flex;
   direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.menu p,
+.menu li,
+.menu a {
+  font-size: 18px;
 }
 
 .firts-page {
@@ -69,16 +66,20 @@ header {
   text-decoration: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
-  height: 50vh;
-  background: url("/ono-tebe-nado/images/hero.png") center/cover no-repeat;
+  width: 1100px;
+  height: 757px;
+  background: url("/ono-tebe-nado/images/lotus-flower.png") center/cover
+    no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-bottom: 1em;
-  padding-top: 1em;
   overflow: hidden;
-  
 }
 
 .big-text-container {
@@ -89,34 +90,46 @@ main {
 }
 
 .big-text-container h1 {
-  margin: -10px;
+  margin-top: 20px;
   font-size: 100px;
   color: whitesmoke;
+  font-weight: 700;
 }
 
 .big-text-one {
   align-self: self-start;
+  letter-spacing: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 
 .big-text-two {
   align-self: center;
+  letter-spacing: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 
 .big-text-three {
   align-self: end;
+  letter-spacing: 30px;
+  font-weight: 700;
 }
 
 .text-and-button {
   display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
+  gap: 5em;
+  padding: 0 5em;
   margin-top: 3em;
+  margin-bottom: 2em;
+  margin-right: 4em;
   align-items: center;
+  width: 1000px;
 }
 .small-text {
   margin: 0;
   color: whitesmoke;
-  word-spacing: 2em;
+  word-spacing: 24.2px;
 }
 
 button {
@@ -125,15 +138,13 @@ button {
   border: 1px solid whitesmoke;
   color: whitesmoke;
   font-family: inherit;
-  font-weight: 500;
-  font-size: 22px;
-  text-shadow: 1px 1px black;
+  display: block;
 }
 
 .lots-section {
   display: flex;
   flex-direction: column;
-  margin: 4em 4.5em;
+  margin: 6em 1em;
 }
 
 .lots-section h2,
@@ -143,6 +154,7 @@ h1,
 h2,
 .small-text {
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 .lots-container {
@@ -151,20 +163,20 @@ h2,
   justify-content: space-between;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  gap: 1em;
 }
-
 h2 {
   margin-bottom: 0;
+  margin-left: 40px;
 }
 
 .lot {
-  /* flex: 1; */
-  width: 17em;
+  width: 334px;
+  height: 563px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  margin-bottom: 1em;
 }
 
 .lot::before {
@@ -180,14 +192,37 @@ h2 {
 
 .first-lot {
   background-image: url(/ono-tebe-nado/images/lot1.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.first-lot p {
+  margin-top: auto;
 }
 
 .second-lot {
   background-image: url(/ono-tebe-nado/images/lot2.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.second-lot a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.second-lot p {
+  margin-top: -3em;
+  padding-top: 0;
 }
 
 .third-lot {
   background-image: url(/ono-tebe-nado/images/lot3.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.third-lot p {
+  margin-top: auto;
 }
 
 .lot p,
@@ -196,8 +231,6 @@ h2 {
   padding: 30px;
   display: block;
   text-shadow: 0.5px 0.5px black;
-  position: relative;
-  z-index: 2;
 }
 
 .lot p {
@@ -208,13 +241,27 @@ h2 {
   font-weight: 700;
 }
 
+button {
+  font-weight: 500;
+  font-size: 22px;
+  text-shadow: 1px 1px black;
+}
+
 .see-more {
   color: black;
+  margin-left: 40px;
+}
+
+.about-auction {
+  margin-top: 6em;
+  width: 1052px;
+  height: 595px;
+  padding: 0 24px;
 }
 
 .round-logo {
-  width: 280px;
-  height: 280px;
+  width: 240px;
+  height: 240px;
   background-color: black;
   border-radius: 50%;
   display: flex;
@@ -223,25 +270,39 @@ h2 {
   margin-right: 20px;
   margin-left: 3em;
 }
-
-.round-logo img {
-  max-width: 80%;
-  max-height: 80%;
+.about-auction {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 100px 100px 100px 200px auto;
+  gap: 20px;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-.title-text {
-  width: 72%;
-  float: right;
-  margin-top: 0;
-  padding-top: 0;
-  margin-right: 4em;
-  margin-bottom: 8em;
+.logo-h2 {
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
 }
 
 .title {
-  margin: 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+
+  align-self: start;
+}
+
+.title-text {
+  grid-column: 2 / 3;
+  grid-row: 3/ 4;
+  align-self: start;
+}
+
+.text {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  align-self: start;
+  margin-left: 2em;
 }
 
 .logo-h2 {
@@ -258,7 +319,7 @@ footer {
   display: flex;
   direction: row;
   width: 90%;
-  margin: 4em 2em 2em 4em;
+  margin: 150px 24px 150px 24px;
   justify-content: space-between;
 }
 
