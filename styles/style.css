@@ -35,7 +35,7 @@ header {
 }
 
 .contacts p {
-  font-size: 15;
+  font-size: 15px;
   font-family: inherit;
   padding: 0 24px;
   max-width: 20ch;
@@ -268,7 +268,7 @@ h2 {
   color: black;
   margin-left: 40px;
   font-size: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid black; /* Исправлено */
   width: 192px;
 }
 
@@ -304,7 +304,6 @@ h2 {
   grid-column: 1 / 1;
   grid-row: 1 / 2;
   display: flex;
-  direction: row;
   align-items: center;
   gap: 6em;
   margin-bottom: -4em;
@@ -342,8 +341,8 @@ h2 {
 
 footer {
   display: flex;
-  direction: row;
   width: 90%;
+
   margin: 190px 50px 88px 50px;
   justify-content: space-between;
 }
@@ -366,4 +365,5 @@ footer {
 
 .footer-links a {
   color: black;
+  font-size: 16px;
 }
